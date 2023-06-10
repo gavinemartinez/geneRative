@@ -1,0 +1,44 @@
+How To, in geneRative.
+
+
+
+Firstly, let's demo the creation of a circle!
+
+```{r}
+
+x <- create_circle(radius = 0.5)
+
+render_lines(x)
+
+```
+
+Wasn't that cool!
+
+Next, let's demo a bubble plot.
+
+```{r}
+
+bubble_plot(horizontal_shift = 2, background_color = "steelblue", bubble_alpha = 0.5)
+
+```
+
+There are many more customization you can use. We're just suckers for that steel blue and minimalist look.
+
+Next, we want to walk you through walk_art. Get it, haha.
+
+```{r}
+
+walk_art(num_steps = 6600, line_thickness = 0.7)
+
+```
+
+This is the generate_mosaic plot. 
+
+```{r}
+
+generate_mosaic(num_boxes = 1600)
+
+```
+
+
+

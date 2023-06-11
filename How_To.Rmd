@@ -40,5 +40,14 @@ generate_mosaic(num_boxes = 1600)
 
 ```
 
+Pretty sweet right. We like to let the artwork do the talking over here. You can user input the amount of boxes you would like in addition to the spiral and background color.
 
+And last, but certainly not least, we have shards.
 
+```{r}
+
+shards(iterations = 37, min = 0, max = 50)
+
+```
+
+You can edit the number of iterations along with the minimum and maximum for this function.
